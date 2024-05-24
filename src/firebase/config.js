@@ -1,5 +1,5 @@
 import { getApp, getApps, initializeApp, } from 'firebase/app'
-import { getAuth, signInWithPopup } from 'firebase/auth'
+import { getAuth } from 'firebase/auth'
 
 const configFirestore = {
     apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
